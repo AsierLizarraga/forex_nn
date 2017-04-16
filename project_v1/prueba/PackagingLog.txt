@@ -1,0 +1,69 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_redistribution" />
+  <mkdir dir="C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_testing" />
+</ant>
+mcc -C -o prueba -W WinMain:prueba -T link:exe -d 'C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_testing' -v 'C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\main.m' 
+[Warning: MATLAB Toolbox Path Cache is out of date and is not being used.
+Type 'help toolbox_path_cache' for more info] 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\coder\simulinkcoder\cgv\API] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\matlab\winfun\NET] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\rtw\targets\AUTOSAR\AUTOSAR] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\rtw\targets\AUTOSAR\AUTOSAR\dataclasses] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\simulink\simulink\MPlayIO] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Duplicate directory name: C:\Program
+Files\MATLAB\R2014a\toolbox\slvnv\reqmgt\RTExplorer] 
+[> In path at 33
+  In requirements at 156] 
+[Warning: Adding path "C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1"
+to Compiler path instance.] 
+Parsing file "C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\main.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 11 temporary MEX authorization files.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_10137_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_24749_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_28759_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_5078_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_26712_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_19075_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_28382_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_9068_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_23124_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_19352_1028.auth'.
+Removing: 'C:\Users\Asier\AppData\Local\Temp\mathworks_tmp_1028_11252_1028.auth'.
+Generating file "C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico to C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_testing\prueba.exe.
+Attempting to embed the CTF archive into the application C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_testing\prueba.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Failed to embed unzip in your application.
+Update resource failed: 000000005FCAC2E0
+Failed to embed custom icon, C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico, in the installer.
+Update resource failed: 000000005FCAB630
+Attempting to embed the default icon C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico.
+Failed to embed custom icon, C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico, in the installer.
+Update resource failed: 000000005FCAB5C0
+Web based installer created at C:\Users\Asier\Desktop\asier\PROYECTO FOREX\project_v1\prueba\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.

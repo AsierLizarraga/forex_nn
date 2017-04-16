@@ -1,0 +1,9 @@
+
+ubicacion
+C:\Users\Asier\AppData\Local\VirtualStore\Program Files (x86)\MetaTrader FLOAT\experts
+
+
+fichero
+C:\Users\Asier\AppData\Local\VirtualStore\Program Files (x86)\MetaTrader FLOAT\experts\files
+
+pagina 92
