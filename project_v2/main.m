@@ -1,6 +1,6 @@
 
 %Initial version of a trading tool based in genetic neural network.
-
+% ACTUALIZACION
 %% Parameter of the account
 % broker
 broker = 'xtb';
